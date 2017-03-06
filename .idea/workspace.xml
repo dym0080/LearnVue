@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adeb6b52-f6a4-4be2-92a7-d03a935dad57" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/LearnVue.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest(vuejs官网学习时练习代码)/first.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest(vuejs官网学习时练习代码)/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest(vuejs官网学习时练习代码)/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest(vuejs官网学习时练习代码)/vue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest(vuejs官网学习时练习代码)/事件处理器/html1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest(vuejs官网学习时练习代码)/事件处理器/html2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest(vuejs官网学习时练习代码)/事件处理器/html3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest(vuejs官网学习时练习代码)/条件渲染/example-1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest(vuejs官网学习时练习代码)/条件渲染/example-2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest(vuejs官网学习时练习代码)/条件渲染/repeat-object.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest(vuejs官网学习时练习代码)/条件渲染/temp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest(vuejs官网学习时练习代码)/组件/html1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest(vuejs官网学习时练习代码)/组件/html2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest(vuejs官网学习时练习代码)/组件/html3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest(vuejs官网学习时练习代码)/组件/html4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest(vuejs官网学习时练习代码)/组件/html5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest(vuejs官网学习时练习代码)/组件/html6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest(vuejs官网学习时练习代码)/计算属性/watch-example.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest(vuejs官网学习时练习代码)/计算属性/watch.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest(vuejs官网学习时练习代码)/计算属性/watch2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest/firsttest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest/js/vue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vuetest/test2.html" />
-    </list>
+    <list default="true" id="adeb6b52-f6a4-4be2-92a7-d03a935dad57" name="Default" comment="" />
     <ignored path="LearnVue.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -219,12 +190,12 @@
       <updated>1488812111385</updated>
       <workItem from="1488812112788" duration="3000" />
       <workItem from="1488812152363" duration="129000" />
-      <workItem from="1488812372675" duration="196000" />
+      <workItem from="1488812372675" duration="320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="328000" />
+    <option name="totallyTimeSpent" value="452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
