@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var fullname = 'John Doe'
+        var obj = {
+            fullname: 'Colin Ihrig',
+            getFullname: function() {
+                return this.fullname
+            }
+        }
+
+        var person = obj.getFullname
+        console.log(obj.getFullname()) // Colin Ihrig
+        console.log(person.call(obj,'')) // John Doe
+    </script>
+</head>
+<body>
+
+</body>
+</html>
