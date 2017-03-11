@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adeb6b52-f6a4-4be2-92a7-d03a935dad57" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vuetest3/README.md" afterPath="$PROJECT_DIR$/Vuetest3/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vuetest3/自定义指令/html1.html" afterPath="$PROJECT_DIR$/Vuetest3/自定义指令/html1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vuetest2/单元素、组件的过渡/html.html" afterPath="$PROJECT_DIR$/vuetest2/单元素、组件的过渡/html.html" />
     </list>
     <ignored path="LearnVue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -102,11 +102,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="html.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="html.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vuetest2/单元素、组件的过渡/html.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="544">
+              <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="html1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Vuetest3/自定义指令/html1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -117,16 +127,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="13" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="html3.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/html3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="8" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -158,13 +158,13 @@
         <option value="$PROJECT_DIR$/Vuetest3/模板语法/html3.html" />
         <option value="$PROJECT_DIR$/Vuetest3/自定义指令.html" />
         <option value="$PROJECT_DIR$/Vuetest3/自定义指令/html.html" />
-        <option value="$PROJECT_DIR$/Vuetest3/自定义指令/html1.html" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/my-jenkins-test/test.html" />
         <option value="$PROJECT_DIR$/Test/test.html" />
         <option value="$PROJECT_DIR$/Test/html2.html" />
         <option value="$PROJECT_DIR$/Test/html3.html" />
         <option value="$PROJECT_DIR$/vuetest2/单元素、组件的过渡/html.html" />
+        <option value="$PROJECT_DIR$/Vuetest3/自定义指令/html1.html" />
       </list>
     </option>
   </component>
@@ -249,25 +249,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vuetest2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnVue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnVue" />
+              <option name="myItemId" value="Vuetest3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vuetest2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="计算属性" />
+              <option name="myItemId" value="自定义指令" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -394,15 +380,15 @@
       <workItem from="1488814743780" duration="1020000" />
       <workItem from="1488847222311" duration="5429000" />
       <workItem from="1489047570915" duration="3864000" />
-      <workItem from="1489198274118" duration="2607000" />
+      <workItem from="1489198274118" duration="4202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15031000" />
+    <option name="totallyTimeSpent" value="16626000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -496,6 +482,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -624,13 +611,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Vuetest3/自定义指令.html" />
-    <entry file="file://$PROJECT_DIR$/Vuetest3/自定义指令/html1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-jenkins-test/test.html" />
     <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -725,8 +705,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vuetest2/单元素、组件的过渡/html.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="544">
+          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vuetest3/自定义指令/html1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding />
         </state>
       </provider>
