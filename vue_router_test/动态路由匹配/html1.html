@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../vue.js"></script>
+    <script src="../vue-router-v2.2.1.js"></script>
+</head>
+<body>
+<div id="app">
+    <h1>Hello App!</h1>
+    <p>
+        <router-link to="/user/foo">Go to Foo</router-link>
+        <router-link to="/user/bar">Go to Bar</router-link>
+    </p>
+    <router-view></router-view>
+</div>
+
+</body>
+<script>
+    const User={
+        template:'<div>user {{$route.params.id}}</div>'
+    }
+
+    const router = new VueRouter({
+        routes:[
+            {path:'/user/:id',component:User}
+        ]
+    });
+
+    const app=new Vue({
+        router:router
+    }).$mount('#app')
+</script>
+</html>

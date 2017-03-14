@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../vue.js"></script>
+    <script src="../vue-router-v2.2.1.js"></script>
+</head>
+<body>
+<div id="app">
+    <router-link to="{name:'home'}">Home</router-link>
+    <router-link to="{name:'foo'}">Foo</router-link>
+    <router-link to="{name:'bar',params:{id:123}">Bar</router-link>
+
+    <router-view></router-view>
+
+</div>
+
+
+</body>
+<script>
+
+    const Home={template:'<div>Home</div>'}
+    const Foo={template:'<div>Foo</div>'}
+    const Bar={template:'<div>This is Bar {{$route.params.id}}</div>'}
+
+
+
+    const router=new VueRouter({
+        mode:'history',
+        //base:__dirname,
+        routes:[
+            {path:'/',name:'home',template:Home},
+            {path:'/foo',name:'foo',template:Foo},
+            {path:'/bar/:id',name:'bar',template:Bar}
+        ]
+
+    })
+
+
+    var app=new Vue({
+        router
+    }).$mount('#app');
+
+</script>
+</html>
