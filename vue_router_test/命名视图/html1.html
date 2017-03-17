@@ -7,6 +7,48 @@
     <script src="../vue-router-v2.2.1.js"></script>
 </head>
 <body>
+<div id="app">
+    <h1>View</h1>
+    <ul>
+        <li>
+            <router-link to="/">/</router-link>
+        </li>
+        <li>
+            <router-link to="/other">Other</router-link>
+        </li>
+    </ul>
+    <router-view class="view one"></router-view>
+    <router-view class="view one" name="a"></router-view>
+    <router-view class="view one"></router-view>
 
+</div>
 </body>
+<script>
+    const Foo={template:'<div>foo</div>'};
+    const Bar={template:'<div>bar</div>'};
+    const Baz={template:'<div>baz</div>'};
+
+    const router=new VueRouter({
+        mode:'history',
+        routes:[
+            {path:'/',components:{
+                default:Foo,
+                a:Bar,
+                b:Baz
+            }},
+            {path:'/other',components:{
+                default:Baz,
+                a:Bar,
+                b:Foo
+            }}
+        ]
+    });
+
+    var app=new Vue({
+        router
+    }).$mount('#app');
+
+
+
+</script>
 </html>

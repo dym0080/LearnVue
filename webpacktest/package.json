@@ -1,0 +1,16 @@
+{
+  "name": "webpacktest",
+  "version": "1.0.0",
+  "description": "my first webpack example",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "duanyongming",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.21.0",
+    "style-loader": "^0.13.0",
+    "webpack": "^2.2.1"
+  }
+}
