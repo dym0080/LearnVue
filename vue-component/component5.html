@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>方式一：Render functions</title>
+</head>
+<body>
+<div id="app">
+    <my-checkbox></my-checkbox>
+</div>
+</body>
+<script src="js/vue.js"></script>
+
+<script>
+
+    Vue.component('my-checkbox',{
+        data(){
+            return {checked:false,title:'click me'}
+        },
+        methods:{
+            check(){
+                this.checked=!this.checked
+            }
+        },
+        render(createElement) {
+            return createElement(
+                'div',
+                {
+                    attrs: {
+                        'class': 'checkbox-wrapper'
+                    },
+                    on: {
+                        click: this.check
+                    }
+                },
+                [
+                    createElement(
+                        'input',
+                        {
+                            attrs:{
+                                type:'checkbox',
+                                'class': {
+                                    checkbox: true,
+                                    checked: checked
+                                },
+                            }
+                        }
+                    ),
+                    createElement(
+                        'div',
+                        {
+                            attrs: {
+                                'class': 'title'
+                            }
+                        },
+                        [ this.title ]
+                    )
+                ]
+            );
+        }
+
+    })
+
+    var vm = new Vue({
+        el: '#app'
+    })
+
+</script>
+</html>

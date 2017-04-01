@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>方式一：Strings</title>
+</head>
+<body>
+<div id="app">
+    <my-checkbox></my-checkbox>
+</div>
+</body>
+<script src="js/vue.js"></script>
+<script type="text/x-handlebars-template" id="checkbox-template">
+    <div class="checkbox-wrapper" @click="check">
+        <input type="checkbox" :class="{ checkbox: true, checked: checked }"></input>
+        <div class="title">{{checked}}</div>
+    </div>
+</script>
+<script>
+
+    Vue.component('my-checkbox',{
+        template:'#checkbox-template',
+        data(){
+            return {checked:false,title:'click me'}
+        },
+        methods:{
+            check(){
+                this.checked=!this.checked
+            }
+        }
+
+    })
+
+    var vm = new Vue({
+        el: '#app'
+    })
+
+</script>
+</html>
