@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import index from '@/pages/index'
-import pageQuiList from '@/pages/pageQuiList'
-import pageQuiNav from '@/pages/pageQuiNav'
-import pageQuiButton from '@/pages/pageQuiButton'
+import index from '../pages/index'
+import pageQuiList from '../pages/pageQuiList'
+import pageQuiNav from '../pages/pageQuiNav'
+import pageQuiButton from '../pages/pageQuiButton'
 
 Vue.use(Router)
 

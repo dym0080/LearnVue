@@ -27,4 +27,7 @@ npm run e2e
 npm test
 ```
 
+说明
+这个demo是参考[demo](https://www.qcloud.com/community/article/437519001490856733?fromSource=gwzcw.60063.60063.60063)写的练习代码
+
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

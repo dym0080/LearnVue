@@ -32,3 +32,6 @@
     }
   }
 </script>
+<style scoped>
+  @import 'css/qui-nav.css';
+</style>

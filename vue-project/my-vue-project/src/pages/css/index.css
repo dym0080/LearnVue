@@ -1,0 +1,22 @@
+.mod-module mod-parallel{
+
+}
+.img-list type-full{
+
+}
+.img-box{
+  width: 100px;
+  height: 100px;
+  background-color: #2aacec;
+  float: left;
+  text-align: center;
+  line-height: 100px;
+  margin-left: 5px;
+}
+.img-item{
+  margin: 0 auto;
+}
+.page-link{
+  text-decoration: none;
+  color: #fff;
+}
