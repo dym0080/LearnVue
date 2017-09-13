@@ -4,20 +4,19 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <!--不使用loop循环，创建一个长度为100的数组，并且每个元素的值等于它的下标-->
-    <script>
-        var fn=function(a,b,c){
-            return a+b+c;
-        };
-
-        //curry(fn)(1)(2)(3) //6
-
-        function curry(x) {
-            return function (y) {
-                return x+y;
+    <script type="text/javascript">
+        // demo03
+        var a = 20;
+        var obj = {
+            a: 10,
+            c: this.a + 20,
+            fn: function () {
+                return this.a;
             }
         }
 
-        console.log(curry(1)(2)(3));
+        console.log(obj.c);
+        console.log(obj.fn());
     </script>
 </head>
 <body>

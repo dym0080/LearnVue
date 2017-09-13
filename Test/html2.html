@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <style>
-        div{
-            width: 400px;
-            margin: 0 auto;
-            background-color: #27ae61;
-        }
-    </style>
-    <script>
-
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("p").append(" <b>Hello world!</b>");
+            });
+        });
     </script>
 </head>
 <body>
- <div>
-faf
- </div>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+<button>在每个 p 元素的结尾添加内容</button>
 </body>
 </html>

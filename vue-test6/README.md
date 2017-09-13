@@ -1,10 +1,6 @@
-# my-vue-project
+# vue-test6
 
 > A Vue.js project
-
-说明：
-这个是参考[demo](https://www.qcloud.com/community/article/437519001490856733?fromSource=gwzcw.60063.60063.60063)写的练习代码
-自己跟着这三篇文章完整的实践了一遍，没有问题，已掌握。
 
 ## Build Setup
 
@@ -30,7 +26,5 @@ npm run e2e
 # run all tests
 npm test
 ```
-
-
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
